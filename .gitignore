@@ -1,0 +1,33 @@
+# Build artifacts
+rust/target/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archive
+archive/
+
+# Local config and sessions (OmniAgent)
+.omni/
+.omni_backend/
+.omnc/
+.sandbox-home/
+.omni.json
+.omnid-todos.json
+rust/.omni/
+rust/.omni_backend/
+rust/.omnc/
+rust/.sandbox-home/
+rust/.omni.json
+rust/.omnid-todos.json
+
+# Miscellaneous
+status-help.txt
+*.log
